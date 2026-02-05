@@ -8,7 +8,7 @@ En dehors de mes études, je suis passionné de cyclisme et membre du **[Cyclo C
   
 Je travaille également sur des projets personnel que voici :
 - **[Jeu d'Échecs en Java](https://github.com/BenjaminSere/Universite/tree/main/ProjetPerso/chessgame-main)** : Mon premier projet réalisé en 2024.
-- **[Nom du projet 2]** : Un outil pour [expliquer l’utilité ou la technologie utilisée].
+- **[MNIST-Neuron](https://github.com/BenjaminSere/MNIST-Neuron)** : Coder le *Hello World* des réseaux de neurones.
 
 <!--
 **BenjaminSere/BenjaminSere** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.

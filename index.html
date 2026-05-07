@@ -105,13 +105,13 @@
                     </p>
                     
                     <div class="flex flex-wrap gap-4 pt-4 items-center">
-                        <a href="CV_Benjamin_Sere_Canva.pdf" target="_blank" class="bg-slate-900 text-white px-5 py-3 rounded-lg font-semibold hover:bg-slate-700 transition-colors shadow-lg flex items-center gap-2">
+                        <a href="CV_Benjamin_Sere_Canva.pdf" target="_blank" class="bg-slate-900 text-white px-5 py-3 rounded-lg font-semibold hover:bg-slate-700 transition-colors shadow-lg flex [...]
                             <i class="fas fa-file-pdf"></i> Télécharger mon CV
                         </a>
 
                         <div class="flex gap-4 border-l border-slate-300 pl-4">
-                            <a href="https://github.com/BenjaminSere" target="_blank" title="GitHub" class="text-slate-600 hover:text-black transition-colors text-3xl"><i class="fab fa-github"></i></a>
-                            <a href="https://www.linkedin.com/in/benjamin-sere-8578b2333/" target="_blank" title="LinkedIn" class="text-slate-600 hover:text-blue-600 transition-colors text-3xl"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://github.com/BenjaminSere" target="_blank" title="GitHub" class="text-slate-600 hover:text-black transition-colors text-3xl"><i class="fab fa-github"></[...]
+                            <a href="https://www.linkedin.com/in/benjamin-sere-8578b2333/" target="_blank" title="LinkedIn" class="text-slate-600 hover:text-blue-600 transition-colors text-3xl"><[...]
                             <a href="mailto:serebenjamin.tr@gmail.com" title="Email" class="text-slate-600 hover:text-red-500 transition-colors text-3xl"><i class="fas fa-envelope"></i></a>
                         </div>
                     </div>
@@ -298,7 +298,7 @@
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div class="group relative overflow-hidden rounded-2xl bg-slate-900 text-white shadow-xl reveal">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent z-10"></div>
-                    <img src="https://images.unsplash.com/photo-1529699211952-734e80c4d42b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Chess" class="h-64 w-full object-cover transition-transform duration-500 group-hover:scale-110">
+                    <img src="https://images.unsplash.com/photo-1529699211952-734e80c4d42b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Chess" class="h-64 w-full object-cover transition-[...]
                     <div class="absolute bottom-0 left-0 p-6 z-20">
                         <h3 class="text-2xl font-bold mb-2">Moteur d'Échecs Java</h3>
                         <p class="text-slate-300 mb-4">Développement complet d'un jeu d'échecs et d'un bot. Objectif : Maîtrise de la POO et de l'algorithmique complexe.</p>
@@ -311,7 +311,7 @@
 
                 <div class="group relative overflow-hidden rounded-2xl bg-slate-900 text-white shadow-xl reveal delay-100">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent z-10"></div>
-                    <img src="https://images.unsplash.com/photo-1555255707-c07966088b7b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="AI Code" class="h-64 w-full object-cover transition-transform duration-500 group-hover:scale-110">
+                    <img src="https://images.unsplash.com/photo-1555255707-c07966088b7b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="AI Code" class="h-64 w-full object-cover transition-t[...]
                     <div class="absolute bottom-0 left-0 p-6 z-20">
                         <h3 class="text-2xl font-bold mb-2">IA Reconnaissance de Chiffres</h3>
                         <p class="text-slate-300 mb-4">Le "Hello World" de l'IA. Création d'un modèle simple pour comprendre les réseaux de neurones.</p>
@@ -394,6 +394,21 @@
 
     <script>
         document.addEventListener('DOMContentLoaded', function() {
+            // Message de bienvenue dans la console
+            console.log("%c🎉 Bienvenue sur mon portfolio numérique!", "font-size: 20px; font-weight: bold; color: #2563eb;");
+            console.log("%cJe suis Benjamin SERE, Futur Ingénieur Full Stack & Data", "font-size: 16px; color: #1e40af; font-weight: bold;");
+            console.log("");
+            console.log("%c📧 Intéressé ? Contacte-moi !", "font-size: 14px; color: #dc2626; font-weight: bold;");
+            console.log("Email: serebenjamin.tr@gmail.com");
+            console.log("GitHub: https://github.com/BenjaminSere");
+            console.log("LinkedIn: https://www.linkedin.com/in/benjamin-sere-8578b2333/");
+            console.log("");
+            console.log("%cDipôme : BUT Informatique - Université de Lille", "color: #059669; font-style: italic;");
+            console.log("%cAlternance : ESUP-POD - Université de Lille", "color: #7c3aed; font-style: italic;");
+            console.log("");
+            console.log("%cMerci d'avoir inspecté mon site ! 😎", "font-size: 14px; color: #2563eb; font-weight: bold;");
+
+            // Animation de défilement existante
             const reveals = document.querySelectorAll('.reveal');
 
             const revealOnScroll = () => {
